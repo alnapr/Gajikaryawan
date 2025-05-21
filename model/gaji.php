@@ -8,12 +8,12 @@ return array (
     array (
       'gajipokok' => 2190000,
       'tunjangan' => 800000,
-      'upahlembur' => 210000,
-      'bonuskinerja' => 438000.0,
-      'totalgaji' => 3638000.0,
-      'jamlembur' => 6,
-      'rating' => 5,
-      'tanggal' => '2025-03-10 16:09:06',
+      'upahlembur' => 105000,
+      'bonuskinerja' => 219000.0,
+      'totalgaji' => 3314000.0,
+      'jamlembur' => 3,
+      'rating' => 3,
+      'tanggal' => '2025-05-18 13:45:35',
     ),
   ),
 );

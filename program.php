@@ -129,7 +129,8 @@ while($running) {
                 foreach ($DataKaryawan as $id => $karyawan) {
                     echo ($id + 1) . ". Nama: {$karyawan['Nama']}, Jabatan: {$karyawan['Jabatan']}\n";
                 }
-                echo "\nMasukkan id karyawan: \n";
+            }                
+            echo "\nMasukkan id karyawan: \n";
                 $id = (int)getCleanInput() - 1;
 
                 if(isset($DataKaryawan[$id])){
@@ -224,7 +225,7 @@ while($running) {
                 } else {
                     echo " Data tidak ditemukan !!!\n";
                 }
-            }
+            
             echo "\nTekan ENTER untuk kembali. . .";
             fgets(STDIN);
             break;
